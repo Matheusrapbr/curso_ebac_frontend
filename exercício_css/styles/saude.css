@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 196, 129);
+}
+
+.saudediv h1 {
+    background-color: rgba(179, 226, 103, 0.911);
+    color: aliceblue;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 16px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body > .articles {
+    background-color: rgb(134, 196, 129);
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: auto;
+}
+
+#resultados  {
+    text-align: center;
+}
+
+.articles header {
+    text-align: center;
+    margin-top: 8px;
+    padding: auto;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+aside , footer , hr {
+    background-color: rgb(134, 196, 129);
+}

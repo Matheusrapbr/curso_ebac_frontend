@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 196, 129);
+}
+
+.paginasaude h1 { 
+    background-color: rgba(179, 226, 103, 0.911);
+    color: aliceblue;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 16px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.paginasaude img { 
+        /* height: 180px; */
+        width: 100%;
+}
+
+body > .paginasaude {
+    background-color: rgb(134, 196, 129);
+}
+
+aside , footer , hr {
+    background-color: rgb(134, 196, 129);
+}
