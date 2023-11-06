@@ -1,0 +1,19 @@
+* {
+    padding: 24px;
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: rgb(248, 252, 127);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.btn {
+    background-color: rgb(255, 174, 0);
+}
