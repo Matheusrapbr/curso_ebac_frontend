@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Módulo 13</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+    .container-carousel .carousel-item img {
+            width: 50%;
+            margin: 0 auto;
+    }
+    
+        .container-carousel .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+    }
+    
+        .carousel-caption {
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 50%;
+            text-align: center;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+}
+
+    .card {
+        display: flex;
+        flex-direction: column;
+}
+
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+}
+
+    .card-text {
+        flex-grow: 1;
+}
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarMenu" data-bs-offset="50">
+    <header>
+        <h1>Atividade 13</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-navbar">
+            <a class="navbar-brand" href="#">Menu das imagens</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#maca">Maçã</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cisne">Cisne</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#zebra">Zebra</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+    
+    <div class="container-geral">
+        <div class="container-carousel" >
+            <div id="meuCarousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="5000" class="carousel-item active">
+                        <img class="d-block w-100"  src="images/apple-8591539.jpg" alt="maça molhada">
+                        <div class="carousel-caption">
+                            <h2>Maça</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="5000" class="carousel-item">
+                        <img src="images/swan-7720090.jpg" class="d-block w-100" alt="cisne no lago ">
+                        <div class="carousel-caption">
+                            <h2>Cisne</h2>
+                        </div>
+                    </div>
+                        <div data-bs-interval="5000" class="carousel-item">
+                            <img src="images/animal-8420313.jpg" class="d-block w-100" alt="Zebra">
+                            <div class="carousel-caption">
+                                <h2>Zebra</h2>
+                            </div>
+                        </div>
+                </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" type="button" data-bs-target="#meuCarousel">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" type="button" data-bs-target="#meuCarousel">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+                <div class="container-grid">
+                    <div class="row pt-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" id="maca">
+                        <div class="card">
+                        <img src="images/apples-805124.jpg" class="card-img-top img-fluid" alt="Maçãs">
+                        <div class="card-body">
+                            <h5 class="card-title">Maçãs</h5>
+                            <p class="card-text">Graças às fibras solúveis, a maçã ajuda a reduzir os níveis de colesterol no sangue. Além disso, os polifenóis em sua composição têm efeito antioxidante, ajudando a diminuir a pressão arterial. As fibras também ajudam a prevenir problemas como prisão de ventre. Para isso, é importante consumir a casca.</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" id="cisne">
+                        <div class="card">
+                        <img src="images/zebra-7746719.jpg" class="card-img-top img-fluid" alt="Zebras">
+                        <div class="card-body">
+                            <h5 class="card-title">Zebras</h5>
+                            <p class="card-text">As zebras são mamíferos que pertencem à família dos cavalos, os equídeos, nativos da África central e do sul. A pelagem deste animal consiste num conjunto de listras contrastantes de cor, com o seu corpo todo branco e algumas listras pretas, dispostas na vertical, exceptuando nas patas, onde se encontram na horizontal.</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" id="zebra">
+                        <div class="card">
+                        <img src="images/swan-2494925.jpg" class="card-img-top img-fluid" alt="Cisnes">
+                        <div class="card-body">
+                            <h5 class="card-title">Cisnes</h5>
+                            <p class="card-text">Os cisnes são aves aquáticas da sub-família Anserinae, que inclui também os gansos. No seu conjunto formam o género Cygnus, sendo caracterizados pelo longo pescoço e por patas curtas. A sua distribuição geográfica é diversificada, sendo os cisnes do hemisfério norte brancos, enquanto que os do hemisfério sul apresentam plumagem por vezes colorida. Os cisnes formam casais monogâmicos e constroem ninhos onde chocam entre 3 a 8 ovos. Se a nidificação falha, é comum os membros do casal procurarem outro parceiro.</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+    
+</body>
+</html>
